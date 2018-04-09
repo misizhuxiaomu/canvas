@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>砍树</title>
+    <style type="text/css">
+    *{
+        margin:0;padding:0;
+         background:#000;
+    }
+      canvas{
+        margin:  50px 300px;
+      }
+
+    </style>
+</head>
+<body>
+
+    <canvas width="641" height="391"></canvas>
+    <audio src="music/beijing.mp3" loop="loop" id="bg"></audio>
+    <audio src="music/kaishi.mp3" loop="loop" id="kaishi"></audio>
+    <audio src="music/faxian.mp3" id="faxian"></audio>
+    <audio src="music/guoguan.mp3" id="guoguan"></audio>
+    <audio src="music/houjiao.mp3" id="houjiao"></audio>
+    <audio src="music/kanshu.mp3" id="kan"></audio>
+    <audio src="music/shudao.mp3" id="dao"></audio>
+    <audio src="music/jianjiao.wav" id="jiao"></audio>
+
+</body>
+</html>
+<script type="text/javascript" src="js/game.js"></script>
+<script type="text/javascript" src="js/background.js"></script>
+<script type="text/javascript" src="js/shumu.js"></script>
+<script type="text/javascript" src="js/renwu.js"></script>
+<script type="text/javascript" src="js/gouxiong.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+<script type="text/javascript">
+         document.getElementById("bg").volume = 0.6;
+        var game = new Game();
+
+</script>
